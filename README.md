@@ -25,23 +25,26 @@ git clone https://github.com/yourusername/registration-management-system.git
 - Create a MySQL database named registration_system.
 - Inside the backend/config/db.js file, update the database connection details:
 
+```
  const db = mysql.createConnection({
   host: 'localhost',
   user: 'your-username',
   password: 'your-password',
   database: 'registration_system'
 }); 
-
+```
 
 ## Create the Registration Table
 Run the following SQL command in your MySQL database to create the Registration table:
 
+```
 CREATE TABLE Registration (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL UNIQUE,
   dob DATE NOT NULL
 );
+``` 
 
 ## Start the Backend Server
 - cd backend
