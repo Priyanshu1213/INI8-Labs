@@ -1,0 +1,20 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  margin: 20px 0;
+}
+
+h1, h2 {
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form, ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
